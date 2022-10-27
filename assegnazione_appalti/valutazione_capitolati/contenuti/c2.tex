@@ -1,9 +1,14 @@
 \subsection{Capitolato C2: \textit{Lumos Minima}}
 \subsubsection{Informazioni generali}
-\textbf{Proponente:} \textit{Imola Informatica}
-\textbf{Descrizione:}
-Il capitolato richiede lo sviluppo di un sistema per ottimizzare l'illuminazione pubblica permettendo ai gestori di regolare l'intensità della luce. Questo può avvenire sia tramite operatore (gestione manuale)
-che tramite i dati di un sensore. E' inoltre prevista una fase di inserimento e rilevazione di guasti.
+\textbf{Proponente:} \textit{Imola Informatica S.p.A.}
+
+\textbf{Descrizione:} Ci viene richiesto di sviluppare un progetto che aiuti nell'attuale sfida di ridurre i costi e lo spreco di energia.
+
+L'ottimizzazione proposta integra l'illuminazione pubblica con il mondo dell'IoT.
+
+L'applicazione che ci impegnamo a sviluppare dovrà permettere ai comuni di adattare l'illuminazione alle varie situazioni che si verranno a verificare. Queste situazioni saranno per esempio: l'adattamento della luminosità a seconda dell'entità presente vicino ad un corpo illuminante.
+
+Obiettivo non di minor importanza sarà integrare nella soluzione una modalità di rilevamento e gestione dei guasti. 
 
 \subsubsection{Dominio}
 
@@ -17,28 +22,29 @@ Il capitolato vuole sviluppare una applicazione web responsive dotata delle segu
     \item Aumento o riduzione globale dell'intensità luminosa (da operatore o tramite dati di sensore);
     \item Aumento o riduzione locale dell'intensità luminosa (da operatore o tramite dati di sensore);
     \item Permettere all'operatore di inserire manualmente un guasto
-    \item Rilevazione automatica di anomalie tramite sensore
+    \item Rilevazione automatica di anomalie tramite sensori.
 \end{itemize}
 
 \textbf{Tecnologie}
 
 Per lo sviluppo dell'applicazione è necessario conoscere e usare:
 \begin{itemize}
-    \item % MiA dal documento
-    \item % MiA dal documento
+    \item MQTT o un qualsiasi altro protocollo di comunicazione consueto nel mondo IoT;
+    \item microservizi;
+    \item REST;
+    \item Una tecnologia per costruire i vari sistemi di coordinamento e gestione, per esempio Python.
 \end{itemize}
 
 
 
 \subsubsection{Fattori determinanti}
 \begin{itemize}
-    \item Chiarezza del capitolato e disponibilità del referente
-    \item Progetto green
-    \item Competenze richieste vicine a quelle del gruppo
+    \item Chiarezza del capitolato e disponibilità del referente;
+    \item Progetto green, attuale e futuro;
+    \item Competenze richieste vicine a quelle possedute del gruppo.
 \end{itemize}
 
 \subsubsection{Decisione}
-Il capitolato ci ha fin da subito colpito molto per la sua tematica stimolante e improntata al futuro ma utile già dal presente. Si prefissa di risolvere tematiche legate al risparmio energetico.
+Il capitolato ci ha fin da subito colpito molto per la sua tematica stimolante e improntata al futuro ma utile già dal presente prefissandosi di risolvere tematiche legate al risparmio energetico.
 
-Inoltre la libertà lasciatoci a livello di organizzazione e tecnologie e una 
-percepita grande disponibilità da parte dell'azienda proponente a lavorare con noi ci ha convinti a scegliere questo capitolato.
+La libertà lasciatoci a livello di organizzazione e scelta delle tecnologie è stato punto cardine che ci ha spinti a \textbf{scegliere questo capitolato}.
