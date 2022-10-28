@@ -7,3 +7,5 @@
 *.fls
 *.aux
 *.toc
+
+*.DS_Store
