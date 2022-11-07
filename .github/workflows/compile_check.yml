@@ -6,6 +6,10 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      
+      - name: pull-submodules
       
       - name: Build LaTeX files
         run: |
