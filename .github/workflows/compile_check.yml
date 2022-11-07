@@ -7,7 +7,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v3
       
-      - name: Builda
+      - name: Build LaTeX files
         run: |
           docker run -i --rm -v "$(pwd)/:/work" -w /work ghcr.io/xu-cheng/texlive-full bash -c '
             shopt -s globstar
@@ -17,7 +17,8 @@ jobs:
               latexmk -lualatex $(basename $d_path)
             ) done'
 
-      - name: Upload PDF file
+      - name: Upload PDF files
         uses: actions/upload-artifact@v3
         with:
+          name: documentazione
           path: "**/*.pdf"
