@@ -65,3 +65,31 @@ jobs:
         with:
           name: documentazione_html
           path: ./documentazione
+
+  deploy_ghpages:
+    runs-on: ubuntu-latest
+    name: Deploy GitHub Pages
+    needs: [build_docs, build_ghpages]
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: ⬇ Download artifact documentazione_html
+        uses: actions/download-artifact@v3
+        with:
+          name: documentazione_html
+          path: ./html
+      
+      - name: 🚧 Setup Github Pages
+        uses: actions/configure-pages@v2
+      
+      - name: 🧬 Generate github-pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./html
+      
+      - name: ⬆ Deploy artifact to GitHub Pages
+        uses: actions/deploy-pages@v1
