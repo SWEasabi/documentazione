@@ -24,7 +24,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: documentazione
-          path: "**/*.pdf"
+          path: "**/d_*.pdf"
 
   build_ghpages:
     runs-on: ubuntu-latest
