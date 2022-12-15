@@ -1,9 +1,7 @@
-# Documentazione-esterna
+# Documentazione
+### Documentazione per il progetto di Software Engineering svolto dal gruppo SWEasabi.
+_Questa documentazione è rivolta al Committente ed al Cliente._
 
-Documentazione per il progetto di Software Engineering svolto dal gruppo SWEasabi(gruppo 13)
+> [GitHub Page](https://sweasabi.github.io/documentazione/) con i documenti in formato PDF aggiornati all'ultima versione.
 
-Questa documentazione è rivolta al Committente ed al Cliente.
-
-## Rilasci della documentazione
-
-- Le versioni rilasciate della documentazione sono presenti nella sezione [Releases](https://github.com/SWEasabi/documentazione-esterna/releases) del repository
+> Pagina delle [Release](https://github.com/SWEasabi/documentazione/releases) completa dei pacchetti per ogni versione rilasciata.
