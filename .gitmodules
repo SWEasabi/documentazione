@@ -2,3 +2,7 @@
 	path = global-assets
 	url = git@github.com:SWEasabi/global-assets.git
 	branch = main
+[submodule "analisi-dei-requisiti"]
+	path = analisi-dei-requisiti
+	url = git@github.com:SWEasabi/analisi-dei-requisiti.git
+	branch = main
