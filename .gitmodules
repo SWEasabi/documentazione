@@ -6,3 +6,7 @@
 	path = analisi-dei-requisiti
 	url = git@github.com:SWEasabi/analisi-dei-requisiti.git
 	branch = main
+[submodule "norme-di-progetto"]
+	path = norme-di-progetto
+	url = git@github.com:SWEasabi/norme-di-progetto.git
+	branch = main
