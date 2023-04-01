@@ -10,3 +10,7 @@
 	path = norme-di-progetto
 	url = git@github.com:SWEasabi/norme-di-progetto.git
 	branch = main
+[submodule "piano-di-progetto"]
+	path = piano-di-progetto
+	url = git@github.com:SWEasabi/piano-di-progetto.git
+	branch = main
