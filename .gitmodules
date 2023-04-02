@@ -1,7 +1,3 @@
-[submodule "global-assets"]
-	path = global-assets
-	url = git@github.com:SWEasabi/global-assets.git
-	branch = main
 [submodule "2_RTB/documentazione_esterna/analisi-dei-requisiti"]
 	path = 2_RTB/documentazione_esterna/analisi-dei-requisiti
 	url = git@github.com:SWEasabi/analisi-dei-requisiti
