@@ -2,15 +2,3 @@
 	path = global-assets
 	url = git@github.com:SWEasabi/global-assets.git
 	branch = main
-[submodule "analisi-dei-requisiti"]
-	path = analisi-dei-requisiti
-	url = git@github.com:SWEasabi/analisi-dei-requisiti.git
-	branch = main
-[submodule "norme-di-progetto"]
-	path = norme-di-progetto
-	url = git@github.com:SWEasabi/norme-di-progetto.git
-	branch = main
-[submodule "piano-di-progetto"]
-	path = piano-di-progetto
-	url = git@github.com:SWEasabi/piano-di-progetto.git
-	branch = main
