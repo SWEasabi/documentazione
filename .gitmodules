@@ -2,3 +2,19 @@
 	path = global-assets
 	url = git@github.com:SWEasabi/global-assets.git
 	branch = main
+[submodule "2. RTB/documentazione_esterna/analisi-dei-requisiti"]
+	path = 2. RTB/documentazione_esterna/analisi-dei-requisiti
+	url = git@github.com:SWEasabi/analisi-dei-requisiti.git
+	branch = main
+[submodule "2. RTB/documentazione_esterna/piano-di-qualifica"]
+	path = 2. RTB/documentazione_esterna/piano-di-qualifica
+	url = git@github.com:SWEasabi/piano-di-qualifica.git
+	branch = main
+[submodule "2. RTB/documentazione_esterna/piano-di-progetto"]
+	path = 2. RTB/documentazione_esterna/piano-di-progetto
+	url = git@github.com:SWEasabi/piano-di-progetto.git
+	branch = main
+[submodule "2. RTB/documentazione_interna/norme-di-progetto"]
+	path = 2. RTB/documentazione_interna/norme-di-progetto
+	url = git@github.com:SWEasabi/norme-di-progetto.git
+	branch = main
