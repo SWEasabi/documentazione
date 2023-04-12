@@ -18,3 +18,7 @@
 	path = 2_RTB/documentazione_interna/norme-di-progetto
 	url = git@github.com:SWEasabi/norme-di-progetto
 	branch = main
+[submodule "2_RTB/documentazione_esterna/glossario"]
+	path = 2_RTB/documentazione_esterna/glossario
+	url = git@github.com:SWEasabi/glossario
+	branch = main
