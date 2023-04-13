@@ -22,3 +22,7 @@
 	path = 2_RTB/documentazione_esterna/glossario
 	url = git@github.com:SWEasabi/glossario
 	branch = main
+[submodule "2_RTB/verbali"]
+	path = 2_RTB/verbali
+	url = git@github.com:SWEasabi/verbali
+	branch = main
