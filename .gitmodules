@@ -26,3 +26,6 @@
 	path = 2_RTB/verbali
 	url = git@github.com:SWEasabi/verbali
 	branch = main
+[submodule "3_PB/documentazione_esterna/piano-di-progetto"]
+	path = 3_PB/documentazione_esterna/piano-di-progetto
+	url = git@github.com:SWEasabi/piano-di-progetto.git
