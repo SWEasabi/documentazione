@@ -20,6 +20,7 @@ _Questa documentazione è rivolta al Committente ed al Cliente._
 > - Product Baseline (PB)
 >   - Lettera di candidatura PB
 >   - [Specifica Architetturale](https://github.com/SWEasabi/specifica-architetturale)
->   - [Specifica delle Basi di Dati](https://github.com/SWEasabi/specifica-delle-basi-dati)
+>   - Documentazione interna ([norme di progetto](https://github.com/SWEasabi/norme-di-progetto))
+>   - Documentazione esterna ([Analisi dei requisiti](https://github.com/SWEasabi/analisi-dei-requisiti), [glossario](https://github.com/SWEasabi/glossario), [piano di progetto](https://github.com/SWEasabi/piano-di-progetto) e [piano di qualifica](https://github.com/SWEasabi/piano-di-qualifica))
 >   - [Verbali](https://github.com/SWEasabi/verbali) (interni, esterni e sprint)
 > - Customer Acceptance (CA)
