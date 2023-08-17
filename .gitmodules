@@ -41,3 +41,6 @@
 [submodule "3_PB/documentazione_esterna/analisi-dei-requisiti"]
 	path = 3_PB/documentazione_esterna/analisi-dei-requisiti
 	url = git@github.com:SWEasabi/analisi-dei-requisiti.git
+[submodule "3_PB/documentazione_esterna/manuale-utente"]
+	path = 3_PB/documentazione_esterna/manuale-utente
+	url = git@github.com:SWEasabi/manuale-utente.git
