@@ -47,3 +47,6 @@
 [submodule "3_PB/documentazione_esterna/piano-di-progetto"]
 	path = 3_PB/documentazione_esterna/piano-di-progetto
 	url = git@github.com:SWEasabi/piano-di-progetto.git
+[submodule "3_PB/documentazione_esterna/piano-di-qualifica"]
+	path = 3_PB/documentazione_esterna/piano-di-qualifica
+	url = git@github.com:SWEasabi/piano-di-qualifica.git
