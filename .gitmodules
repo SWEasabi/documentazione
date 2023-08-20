@@ -35,9 +35,6 @@
 [submodule "3_PB/documentazione_esterna/glossario"]
 	path = 3_PB/documentazione_esterna/glossario
 	url = git@github.com:SWEasabi/glossario.git
-[submodule "3_PB/documentazione_esterna/specifica-architetturale"]
-	path = 3_PB/documentazione_esterna/specifica-architetturale
-	url = git@github.com:SWEasabi/specifica-architetturale.git
 [submodule "3_PB/documentazione_esterna/analisi-dei-requisiti"]
 	path = 3_PB/documentazione_esterna/analisi-dei-requisiti
 	url = git@github.com:SWEasabi/analisi-dei-requisiti.git
